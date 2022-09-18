@@ -5,43 +5,37 @@ Author: https://github.com/noblexeyi/
 
 // --------------
 
-```
-### Installation:
+## Installation:
 
+```
 npm install
+```
 
 or
 
+```
 yarn add
 ```
 
 // --------------
 
-```
-Project is working perfectly.
-```
-
-// --------------
-
-```
-### Important Info:
+## Important Info:
 1. 'SplitType' is of three categories namely, FLAT, PERCENTAGE and RATIO.
 
 2. The order of precedence for the 'SplitType' is as follow:
     FLAT types is computed before PERCENTAGE OR RATIO types
     PERCENTAGE types is computed before RATIO types.
     RATIO types is computed last.
-```
 
 // --------------
 
-```
+## Example
 
 Endpoint: https://splitpay-nodejs.herokuapp.com/split-payments/compute
 
-
 Sample Payload:
 
+```
 {
     "ID": 1308,
     "Amount": 4500,
@@ -84,9 +78,9 @@ Sample Payload:
 
 // --------------
 
-```
 Sample Response:
 
+```
 {
     "ID": 1308,
     "Balance": 0,
