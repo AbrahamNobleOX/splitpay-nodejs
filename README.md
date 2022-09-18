@@ -1,7 +1,7 @@
 # SplitPay
 ## SplitPay - Split Payment NodeJS
 
-Author: https://github.com/noblexeyi/
+Author: https://github.com/noblexeyi
 
 
 ## Installation:
