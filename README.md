@@ -3,7 +3,6 @@
 
 Author: https://github.com/noblexeyi/
 
-// --------------
 
 ## Installation:
 
@@ -17,7 +16,6 @@ or
 yarn add
 ```
 
-// --------------
 
 ## Important Info:
 1. 'SplitType' is of three categories namely, FLAT, PERCENTAGE and RATIO.
@@ -27,9 +25,12 @@ yarn add
     PERCENTAGE types is computed before RATIO types.
     RATIO types is computed last.
 
-// --------------
 
 ## Example
+
+Request Type: POST
+
+Content Type: application/json
 
 Endpoint: https://splitpay-nodejs.herokuapp.com/split-payments/compute
 
@@ -75,8 +76,6 @@ Sample Payload:
     ]
 }
 ```
-
-// --------------
 
 Sample Response:
 
