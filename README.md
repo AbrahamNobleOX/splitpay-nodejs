@@ -24,6 +24,8 @@ yarn add
     FLAT types is computed before PERCENTAGE OR RATIO types
     PERCENTAGE types is computed before RATIO types.
     RATIO types is computed last.
+    
+3. 'SplitEntityId' can be seen as Account ID.
 
 
 ## Example
