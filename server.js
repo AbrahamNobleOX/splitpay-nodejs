@@ -16,11 +16,15 @@ const server = http.createServer(app);
 
 // Dev logging
 if (process.env.NODE_ENV === "development") {
-    app.use(morgan("dev"));
+  app.use(morgan("dev"));
 }
 
 // Link to router
-app.get("/", (req, res) => res.send("Homepage"));
+app.get("/", (req, res) =>
+  res.send(
+    "Succesful! Use 'https://splitpay-nodejs.onrender.com/split-payments/compute' as your endpoint. Find sample payload here 'https://github.com/AbrahamNobleOX/splitpay-nodejs' "
+  )
+);
 app.use("/split-payments/compute", require("./routes/api/split-payments"));
 
 // Set Listening Port
