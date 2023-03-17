@@ -36,7 +36,7 @@ Request Type: POST
 
 Content Type: application/json
 
-Endpoint: https://splitpay-nodejs.herokuapp.com/split-payments/compute
+Endpoint: https://splitpay-nodejs.onrender.com
 
 Sample Payload:
 
